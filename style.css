@@ -1,0 +1,151 @@
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global Styles */
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+  background-color: #ffd700;
+  color: #333;
+  line-height: 1.5;
+}
+
+header {
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h1 {
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+nav ul {
+  list-style: none;
+  text-align: center;
+  margin-top: 10px;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #555;
+  padding: 5px;
+  border-bottom: 2px solid transparent;
+  transition: border-bottom-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  border-bottom-color: #555;
+}
+
+#content {
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #555;
+}
+
+.product {
+  display: inline-block;
+  width: 200px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  border-radius: 4px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.product:hover {
+  transform: translateY(-5px);
+}
+
+.product img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  transition: transform 0.3s ease;
+}
+
+.product:hover img {
+  transform: scale(1.1);
+}
+
+.product h3 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+.product p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.product button {
+  display: block;
+  width: 100%;
+  padding: 8px 0;
+  background-color: #555;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.product button:hover {
+  background-color: #333;
+}
+
+footer {
+  background-color: #333;
+  color: #d52525;
+  padding: 20px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+footer p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+
+  from {
+      opacity: 0;
+  }
+  to {
+      opacity: 0;
+  }
+}
