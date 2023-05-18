@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Negozio di Videogiochi</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1 class="logo">Negozio di Videogiochi</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="catalogo.html">Catalogo</a></li>
+                <li><a href="#Carrello">Carrello</a>
+                <li><a href="iscriviti.html">Iscriviti alla Newsletter</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="content">
+        <div class="search-bar">
+            <input type="text" id="search-input" placeholder="Cerca giochi">
+            <button id="search-btn">Cerca</button>
+        </div>
+
+        <div class="game-list">
+            <div class="game-item">
+                <img src="open-graph.jpg" alt="Videogioco 1">
+                <h3>Diablo IV</h3>
+                <p>Prezzo: $49.99</p>
+                <button class="add-to-cart-btn">Aggiungi al Carrello</button>
+            </div>
+
+            <div class="game-item">
+                <img src="images.jpg" alt="Videogioco 2">
+                <h3>Overwatch</h3>
+                <p>Prezzo: $39.99</p>
+                <button class="add-to-cart-btn">Aggiungi al Carrello</button>
+            </div>
+
+            <div class="game-item">
+                <img src="game3.jpg" alt="Videogioco 3">
+                <h3>Elden Ring</h3>
+                <p>Prezzo: $39.99</p>
+                <button class="add-to-cart-btn">Aggiungi al Carrello</button>
+            </div>
+
+            <div class="game-item">
+                <img src="OFMeAw2KhrdaEZAjW1f3tCIXbogkLpTC.webp" alt="Videogioco 4">
+                <h3>Dark Souls 3</h3>
+                <p>Prezzo: $39.99</p>
+                <button class="add-to-cart-btn">Aggiungi al Carrello</button>
+            </div>
+
+            <div class="game-item">
+                <img src="game5.jpg" alt="Videogioco 5">
+                <h3>Zelda Breath of the Wild</h3>
+                <p>Prezzo: $39.99</p>
+                <button class="add-to-cart-btn">Aggiungi al Carrello</button>
+            </div>
+
+            <!-- Aggiungi altri giochi qui -->
+        </div>
+    </section>
+
+    <aside id="cart">
+        <h2>Carrello</h2>
+        <ul id="cart-items">
+            <!-- Elementi del carrello verranno aggiunti dinamicamente -->
+        </ul>
+        <button id="checkout-btn">Checkout</button>
+    </aside>
+
+    <footer>
+        <p>Tutti i diritti riservati &copy; 2023</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
